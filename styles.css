@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cyan: hsl(171, 66%, 44%);
+    --blue: hsl(233, 100%, 69%);
+    --darkGray: hsl(210, 10%, 33%);
+    --gray: hsl(201, 11%, 66%);
+    --black: #000;
+    --white: #fff;
+    --Bai: 'Bai Jamjuree', sans-serif;
+}
+
+::selection {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+body {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-color: var(--white);
+    color: var(--white);
+    min-height: 100vh;
+    min-width: 375px;
+    max-width: 1980px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: var(--Bai);
+    padding: 5em 1.5em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    body {
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+}
