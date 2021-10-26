@@ -27,23 +27,173 @@ body {
     background-image: url(images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-color: var(--white);
-    color: var(--white);
+    background-size: 100%;
+    color: var(--darkGray);
     min-height: 100vh;
     min-width: 375px;
     max-width: 1980px;
     overflow-x: hidden;
     margin: 0 auto;
     font-family: var(--Bai);
-    padding: 5em 1.5em;
+    text-align: center;
+}
+
+.container {
+    padding: 7.5em 2em 0 2em;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 img {
     display: block;
     max-width: 100%;
+    margin: 0 auto;
     height: auto;
 }
 
-@media only screen and (min-width: 1400px) {
+.header img {
+    margin: 0 auto 5em auto;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: var(--gray);
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 3em;
+}
+
+.download a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    padding: 0.75em 0;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.download a:first-of-type {
+    background-color: var(--cyan);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 1em;
+}
+
+.download a:first-of-type:hover {
+    background-color: hsla(171, 66%, 44%, 0.75);
+}
+
+.download a:last-of-type {
+    background-color: var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 7.5em;
+}
+
+.download a:last-of-type:hover {
+    background-color: hsla(233, 100%, 69%, 0.75);
+}
+
+.features img {
+    margin-bottom: 5em;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 0.35em;
+}
+
+.features p {
+    font-size: 16px;
+}
+
+.features {
+    margin-bottom: 12.5em;
+}
+
+.access {
+    margin-bottom: 1em;
+}
+
+.container > img {
+    margin-bottom: 7.5em;
+}
+
+.supercharge h1 {
+    font-size: 28px;
+}
+
+.supercharge {
+    margin-bottom: 5em;
+}
+
+.column-item img {
+    margin-bottom: 2em;
+}
+
+.column-item p {
+    font-size: 16px;
+}
+
+.three-column {
+    margin-bottom: 7.5em;
+}
+
+.logos img {
+    margin-bottom: 4em;
+}
+
+.logos {
+    margin-bottom: 10em;
+}
+
+footer {
+    background-color: hsla(201, 11%, 66%, 0.15);
+    padding: 4em;
+}
+
+footer > img {
+    width: 55px;
+    margin-bottom: 2em;
+}
+
+.footer-list a {
+    display: block;
+    text-decoration: none;
+    color: var(--darkGray);
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    transition: color 0.3s;
+}
+
+.footer-list a:hover {
+    color: var(--cyan);
+}
+
+.footer-list {
+    margin-bottom: 3.5em;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+.icons img {
+    margin: 0;
+    transition: filter 0.3s;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(70%) saturate(453%) hue-rotate(121deg) brightness(86%) contrast(87%);
+}
+
+@media only screen and (min-width: 1000px) {
 
     body {
         background-image: url(images/bg-header-desktop.png);
