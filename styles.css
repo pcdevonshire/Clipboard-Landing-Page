@@ -199,4 +199,139 @@ footer > img {
         background-image: url(images/bg-header-desktop.png);
     }
 
+    .container {
+        padding: 7.5em 0 0 0;
+        max-width: 100%;
+    }
+
+    .header, .track, .access, .bottom {
+        max-width: 55%;
+        margin: 0 auto;
+    }
+
+    .header img {
+        margin: 0 auto 4em auto;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .download a {
+        display: inline-block;
+        padding: 1em 2em;
+    }
+    
+    .download a:first-of-type {
+        margin: 0 1em 0 0;
+    }
+
+    .track h1 {
+        font-size: 38px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin: 0 auto 10em auto;
+    }
+
+    .features img {
+        margin: 0;
+        transform: translateX(-30px);
+    }
+
+    .list {
+        text-align: left;
+    }
+
+    .list-item p {
+        max-width: 60%;
+        line-height: 2;
+    }
+
+    .access h1 {
+        font-size: 38px;
+    }
+
+    .access {
+        margin-bottom: 7.5em;
+    }
+
+    .supercharge h1 {
+        font-size: 38px;
+    }
+
+    .three-column {
+        display: flex;
+        justify-content: center;
+        max-width: 80%;
+        margin: 0 auto 10em auto;
+    }
+
+    .column-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .column-item img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .column-item p {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 85%;
+        margin: 0 auto 7.5em auto;
+    }
+
+    .bottom h1 {
+        font-size: 38px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 2em 10em;
+        gap: 1em;
+    }
+
+    footer > img {
+        margin: 0;
+    }
+    
+    .footer-list a {
+        margin-bottom: 1em;
+    }
+    
+    .footer-list {
+        margin: 2em 0 0 0;
+        text-align: left;
+        display: flex;
+        gap: 5em;
+        margin-left: 10em;
+    }
+    
+    .icons {
+        margin-left: auto;
+        gap: 1.5em;
+    }
+
 }
